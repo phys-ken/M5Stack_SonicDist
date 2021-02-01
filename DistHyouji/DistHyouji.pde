@@ -5,7 +5,7 @@ String mystr = "0";
 
 void setup()
 {
-  size(600,600);
+  size(1000,1000);
   frameRate(60);
   
    //フォントを読み込む
@@ -27,9 +27,10 @@ void draw()
   textFont(hello, 32); 
   
   //text(表示文字列, x座標, y座標)
-    textSize(100);
-    text("distance = ", 0, height / 4);
-    text(mystr, width / 2, height / 2);
+    textSize(300);
+    text("x(cm) = ", 0, height / 3);
+        textSize(500);
+    text(mystr, width / 2, height * 4/ 5);
 }
 
 void serialEvent(Serial myPort) { 
