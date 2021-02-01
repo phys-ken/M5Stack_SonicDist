@@ -1,10 +1,10 @@
 # M5Stackに超音波距離センサーを繋ぐ
 
 * 実験の様子
-![距離センサーの実験の様子](fig/kyorim5.gif)  
+  * ![距離センサーの実験の様子](fig/kyorim5.gif)  
 
 * PCの画面
-![PCの様子](fig/processing.gif)
+  * ![PCの様子](fig/processing.gif)
 
 
 ### できること
