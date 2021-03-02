@@ -7,6 +7,14 @@
   * ![PCの様子](fig/processing.gif)
 
 
+### 配線
+![配線図](fig/zu.jpg)
+* Vcc - 5V
+* GND - GND
+* TRIG - 2
+* ECHO - 5
+
+
 ### できること
 * M5Stack に、格安超音波距離センサー [HC-SR04](https://akizukidenshi.com/catalog/g/gM-11009/)を繋いで、測定値をLCDに表示する。
 * シリアル通信で、PCにデータを送る。
