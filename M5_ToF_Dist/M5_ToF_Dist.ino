@@ -48,4 +48,6 @@ void loop() {
 
 
   preDist = distance;
+
+  delay(50);
 }

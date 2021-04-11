@@ -1,11 +1,12 @@
 import processing.serial.*;
 PFont hello;  //テキスト用の変数
 Serial myPort;
-String mystr = "0";
+String mystr = "";
+int tmpVal;
 
 void setup()
 {
-  size(1000,1000);
+  size(1500,1000);
   frameRate(60);
   
    //フォントを読み込む
@@ -26,11 +27,12 @@ void draw()
   //textFont(変数名, サイズ)
   textFont(hello, 32); 
   
+  
   //text(表示文字列, x座標, y座標)
     textSize(300);
-    text("x(cm) = ", 0, height / 3);
+    text("x[cm] = ", 0, height / 3);
         textSize(500);
-    text(mystr, width / 2, height * 4/ 5);
+    text(mystr, width / 3, height * 9/ 10);
 }
 
 void serialEvent(Serial myPort) { 
