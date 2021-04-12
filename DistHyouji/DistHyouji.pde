@@ -6,7 +6,7 @@ int tmpVal;
 
 void setup()
 {
-  size(1500,1000);
+  size(1500,800);
   frameRate(60);
   
    //フォントを読み込む
@@ -32,7 +32,9 @@ void draw()
     textSize(300);
     text("x[cm] = ", 0, height / 3);
         textSize(500);
-    text(mystr, width / 3, height * 9/ 10);
+    //text(mystr, width / 3, height * 9/ 10); cmが送られてくるときはこっち
+        text(str(round(int(mystr)/10)), width / 3, height * 9/ 10); //mmが送られてくるときはこっち
+
 }
 
 void serialEvent(Serial myPort) { 
